@@ -1,0 +1,40 @@
+/*Colores*/
+:root {
+  --primario: #002038;
+  --secundario: #c9daf1;
+  --terciario: #92ace8;
+}
+
+*,
+*:before,
+*:after {
+  /*Selector universal*/
+  box-sizing: inherit;
+}
+
+.contenedor-principal {
+  display: grid;
+  grid-template-columns: 1fr, 2fr;
+}
+
+/*logo*/
+
+.logo img {
+  max-width: 10rem; /* Establece el ancho máximo del logo */
+  height: auto;
+}
+
+/*Navegacion*/
+
+header {
+  color: yellow;
+}
+
+.navegacion {
+  font-family: "Tektur", sans-serif;
+  text-align: center;
+  background-color: var(--primario);
+  height: 5rem;
+}
+
+/*Media Queries*/
