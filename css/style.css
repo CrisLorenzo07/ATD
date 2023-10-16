@@ -5,6 +5,14 @@
   --terciario: #92ace8;
 }
 
+/*Fonts*/
+
+:root {
+  --font-primaria: "Tektur", sans-serif;
+  --font-secundaria: "Roboto", sans-serif;
+  --font-terciaria: "Montserrat", sans-serif;
+}
+
 *,
 *:before,
 *:after {
@@ -12,29 +20,43 @@
   box-sizing: inherit;
 }
 
-.contenedor-principal {
-  display: grid;
-  grid-template-columns: 1fr, 2fr;
-}
-
 /*logo*/
 
-.logo img {
-  max-width: 10rem; /* Establece el ancho máximo del logo */
+a img {
+  max-width: 9rem; /* Establece el ancho máximo del logo */
   height: auto;
+  width: auto;
+  padding-top: 0.7rem;
+  padding-left: 2rem;
 }
 
 /*Navegacion*/
 
-header {
-  color: yellow;
-}
-
 .navegacion {
-  font-family: "Tektur", sans-serif;
   text-align: center;
   background-color: var(--primario);
   height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
 }
 
-/*Media Queries*/
+a {
+  color: var(--secundario);
+  text-decoration: none;
+  font-family: var(--font-primaria);
+  font-size: 1.5rem;
+}
+
+div img {
+  max-width: 5 rem;
+  height: auto;
+  width: auto;
+  align-items: center;
+}
+
+nav a:hover {
+  color: var(--terciario);
+}
