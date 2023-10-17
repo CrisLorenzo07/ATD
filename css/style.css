@@ -1,17 +1,19 @@
-/*Colores*/
+/*------------------------------Colors--------------------------*/
 :root {
   --primario: #002038;
   --secundario: #c9daf1;
   --terciario: #92ace8;
 }
 
-/*Fonts*/
+/*------------------------------Google Fonts--------------------------*/
 
 :root {
   --font-primaria: "Tektur", sans-serif;
   --font-secundaria: "Roboto", sans-serif;
   --font-terciaria: "Montserrat", sans-serif;
 }
+
+/*-------------------------------------------------------------*/
 
 *,
 *:before,
@@ -20,7 +22,7 @@
   box-sizing: inherit;
 }
 
-/*logo*/
+/*------------------------------Logo--------------------------*/
 
 a img {
   max-width: 9rem; /* Establece el ancho máximo del logo */
@@ -30,7 +32,7 @@ a img {
   padding-left: 2rem;
 }
 
-/*Navegacion*/
+/*------------------------------Navegacion--------------------------*/
 
 .navegacion {
   text-align: center;
@@ -47,7 +49,7 @@ a {
   color: var(--secundario);
   text-decoration: none;
   font-family: var(--font-primaria);
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 div img {
@@ -59,4 +61,46 @@ div img {
 
 nav a:hover {
   color: var(--terciario);
+}
+
+/*------------------------------Body--------------------------*/
+
+html {
+  background-image: url(../img/background_circuits.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/*------------------------------Fonts--------------------------*/
+
+h1 {
+  font-size: 3.8rem;
+}
+
+h2 {
+  font-size: 2.8rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+
+/*------------------------------Main--------------------------*/
+.contenedor {
+  background-color: var(--primario);
+  display: flex;
+  margin-top: 10rem;
+}
+
+.hero {
+  background-color: var(--secundario);
+  display: flex;
+  flex-wrap: 50% 50%;
+  margin-top: 3rem;
+}
+
+.img-cpu {
+  display: flex;
+  margin-bottom: 3rem;
 }
