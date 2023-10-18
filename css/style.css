@@ -9,7 +9,7 @@
 
 :root {
   --font-primaria: "Tektur", sans-serif;
-  --font-secundaria: "Roboto", sans-serif;
+  --font-secundaria: "Bebas Neue", sans-serif;
   --font-terciaria: "Montserrat", sans-serif;
 }
 
@@ -106,9 +106,38 @@ h3 {
 .noticias {
   background-color: var(--secundario);
   display: flex;
-
+  flex-direction: column;
   margin-top: 5rem;
   flex-direction: column;
+}
+
+.button {
+  background-color: var(--secuandario);
+  color: var(--secuandario);
+  padding: 1rem 1rem;
+  margin-top: 1rem;
+  font-size: 1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: var(--font-terciaria);
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+  width: 10rem;
+  height: 2rem;
+  text-align: start;
+}
+
+.noticias button {
+  margin-left: 1rem;
+}
+
+.button:hover {
+  background-color: var(--terciario);
+  color: var(--secundario);
 }
 
 .img-cpu {
