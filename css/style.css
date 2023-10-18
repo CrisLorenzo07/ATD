@@ -74,8 +74,17 @@ html {
 
 /*------------------------------Fonts--------------------------*/
 
-h1 {
-  font-size: 3.8rem;
+.noticias h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-family: var(--font-secundaria);
+  margin: 2rem;
+}
+
+.noticias p {
+  font-size: 1.5rem;
+  font-family: var(--font-terciaria);
+  margin: 1rem;
 }
 
 h2 {
@@ -91,16 +100,17 @@ h3 {
   background-color: var(--primario);
   display: flex;
   margin-top: 10rem;
+  flex-wrap: 50% 50%;
 }
 
-.hero {
+.noticias {
   background-color: var(--secundario);
   display: flex;
-  flex-wrap: 50% 50%;
-  margin-top: 3rem;
+
+  margin-top: 5rem;
+  flex-direction: column;
 }
 
 .img-cpu {
-  display: flex;
-  margin-bottom: 3rem;
+  margin-bottom: 5rem;
 }
