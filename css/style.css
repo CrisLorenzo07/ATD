@@ -97,16 +97,15 @@ h3 {
 
 /*------------------------------Main--------------------------*/
 .contenedor {
-  background-color: var(--primario);
   display: flex;
+  background-image: url(../img/background_color_blue.png);
   margin-top: 10rem;
   flex-wrap: 50% 50%;
 }
 
 .noticias {
-  background-color: var(--secundario);
   display: flex;
-  flex-direction: column;
+  background-color: var(--secundario);
   margin-top: 5rem;
   flex-direction: column;
 }
@@ -130,16 +129,13 @@ h3 {
   height: 2rem;
   text-align: start;
 }
-
 .noticias button {
   margin-left: 1rem;
 }
-
 .button:hover {
   background-color: var(--terciario);
   color: var(--secundario);
 }
-
 .img-cpu {
   margin-bottom: 5rem;
 }
