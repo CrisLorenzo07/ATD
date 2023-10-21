@@ -13,12 +13,21 @@
   --font-terciaria: "Montserrat", sans-serif;
 }
 
-/*-------------------------------------------------------------*/
+/*------------------------------Google Icons--------------------------*/
+
+.material-symbols-outlined {
+  font-size: 6rem;
+  margin-top: 2rem;
+  color: var(--terciario);
+  align-items: center;
+  font-variation-settings: "FILL" 0, "wght" 200, "GRAD" 0, "opsz" 48;
+}
+
+/*------------------------Selector universal------------------------*/
 
 *,
 *:before,
 *:after {
-  /*Selector universal*/
   box-sizing: inherit;
 }
 
@@ -65,7 +74,7 @@ nav a:hover {
 
 /*------------------------------Body--------------------------*/
 
-html {
+html body {
   background-image: url(../img/background_circuits.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -96,24 +105,26 @@ h3 {
 }
 
 /*------------------------------Main--------------------------*/
-/* .contenedor-main {
+.contenedor-main {
   display: grid;
   grid-template-rows: 50% 50%;
   grid-template-columns: 50% 50%;
   margin-top: 5rem;
+  margin-left: -1.1rem;
 }
 .img-background {
+  display: grid;
   position: absolute;
-  z-index: 1;
   width: 100%;
-  height: 100%;
+  height: 80%;
+  z-index: 1;
   padding-top: 18rem;
 }
 
 .noticias {
   background-color: var(--secundario);
   width: 80%;
-  height: 80%;
+  height: 160%;
   margin-top: 8rem;
   margin-left: 6rem;
   z-index: 2;
@@ -126,12 +137,13 @@ h3 {
 }
 
 .button {
-  background-color: var(--secuandario);
-  color: var(--secuandario);
+  background-color: var(--secundario);
+  color: white;
   padding: 1rem 1rem;
   font-size: 1rem;
   text-decoration: none;
   text-transform: uppercase;
+
   font-weight: bold;
   font-family: var(--font-terciaria);
   width: 10rem;
@@ -149,7 +161,7 @@ h3 {
 
 .button:hover {
   background-color: var(--terciario);
-  color: var(--secundario);
+  color: var(--primario);
 }
 .img-cpu {
   z-index: 3;
@@ -158,84 +170,26 @@ h3 {
   height: 80%;
   width: 80%;
   margin-left: -7.6rem;
-} */
-
-@media (min-width: 1366px) {
-  .noticias h1 {
-    font-size: 2rem;
-    text-transform: uppercase;
-    font-family: var(--font-secundaria);
-    margin: 2rem;
-  }
-
-  .noticias p {
-    font-size: 1.2rem;
-    font-family: var(--font-terciaria);
-    margin: 1rem;
-    padding-bottom: 8rem;
-  }
-  .contenedor-main {
-    display: grid;
-    grid-template-rows: 50% 50%;
-    grid-template-columns: 50% 50%;
-    margin-bottom: 10rem;
-  }
-  .img-background {
-    position: absolute;
-    z-index: 1;
-    width: 100%;
-    height: 100%;
-    padding-top: 10rem;
-  }
-
-  .noticias {
-    background-color: var(--secundario);
-    width: 80%;
-    height: 60%;
-    margin-top: 8rem;
-    margin-left: 6rem;
-    z-index: 2;
-    opacity: 0.8;
-    border-radius: 1rem;
-    -webkit-border-radius: 1rem;
-    -moz-border-radius: 1rem;
-    -ms-border-radius: 1rem;
-    -o-border-radius: 1rem;
-  }
-  /*
-
-  .button {
-    background-color: var(--secuandario);
-    color: var(--secuandario);
-    padding: 1rem 1rem;
-    font-size: 1rem;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-family: var(--font-terciaria);
-    width: 10rem;
-    height: 2rem;
-    text-align: start;
-    border-radius: 1rem;
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    -ms-border-radius:;
-    -o-border-radius:;
 }
-  .noticias button {
-    margin-left: 1rem;
-  }
 
-  .button:hover {
-    background-color: var(--terciario);
-    color: var(--secundario);
-  }
-  .img-cpu {
-    z-index: 3;
-    padding-bottom: 6rem;
-    padding-left: 1.6rem;
-    height: 80%;
-    width: 80%;
-    margin-left: -7.6rem;
-  } */
+/*------------------------------Iconos--------------------------*/
+
+.contenedor-icons {
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  margin-top: 2rem;
+  width: auto;
+  height: 15rem;
+  text-align: center;
+  align-items: center;
+}
+
+.contenedor-icons a h2 {
+  justify-content: space-evenly;
+  padding-left: 2rem;
+  color: var(--primario);
+  text-decoration: none;
+  font-family: var(--font-terciaria);
+  font-size: 1.5rem;
 }
