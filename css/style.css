@@ -77,6 +77,8 @@ div img {
 
 nav a:hover {
   color: var(--terciario);
+  text-decoration: solid;
+  font-size: 1.4rem;
 }
 
 /*------------------------------Fonts--------------------------*/
@@ -153,6 +155,7 @@ nav a:hover {
 .button:hover {
   background-color: var(--terciario);
   color: var(--primario);
+  font-size: 0.9rem;
 }
 .img-cpu {
   z-index: 3;
@@ -187,11 +190,17 @@ nav a:hover {
   font-size: 1.5rem;
 }
 
+.contenedor-icons a:hover {
+  color: var(--terciario);
+  font-size: 1.6rem;
+}
+
 .innovation-cards {
   display: flex;
   justify-content: space-between;
   background-color: white;
   border: 1px solid var(--primario);
+  position: relative;
 }
 
 .card-1,
@@ -211,18 +220,21 @@ h2 {
   font-family: var(--font-terciaria);
   height: auto;
   width: auto;
-  font-size: 2rem;
+  font-size: 1.4rem;
+  text-transform: uppercase;
 }
 
 .innovation-cards,
 h3 {
-  font-size: 1.2rem;
+  font-size: 1rem;
+  text-transform: uppercase;
   font-family: var(--font-terciaria);
 }
 .innovation-cards,
-p {
+.p {
   font-size: 1.4rem;
   font-family: var(--font-terciaria);
+  text-transform: lowercase;
 }
 
 /*------------------------------Footer--------------------------*/
@@ -255,20 +267,24 @@ p {
   margin-top: 1rem;
   margin-bottom: 4rem;
   border: 1px solid var(--secundario);
+  font-size: 1.3rem;
 }
 
 .nav-footer a:hover {
   color: var(--terciario);
+  font-size: 1.4rem;
 }
 
 .ubication {
+  font-family: var(--font-terciaria);
   text-align: center;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 .copyright {
   margin: 0;
   color: var(--secundario);
   text-align: center;
-  padding-top: 2rem;
+  font-family: var(--font-terciaria);
+  padding-top: 3rem;
   font-size: 1rem;
 }
