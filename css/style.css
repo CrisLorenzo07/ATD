@@ -31,14 +31,21 @@
   box-sizing: inherit;
 }
 
+/*------------------------------Body--------------------------*/
+
+html body {
+  background-image: url(../img/background_circuits.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
 /*------------------------------Logo--------------------------*/
 
 a img {
-  max-width: 9rem; /* Establece el ancho máximo del logo */
+  max-width: 10rem; /* Establece el ancho máximo del logo */
   height: auto;
   width: auto;
-  padding-top: 0.7rem;
-  padding-left: 2rem;
+  padding-left: 1rem;
 }
 
 /*------------------------------Navegacion--------------------------*/
@@ -46,7 +53,7 @@ a img {
 .navegacion {
   text-align: center;
   background-color: var(--primario);
-  height: 5rem;
+  height: 6rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -70,15 +77,6 @@ div img {
 
 nav a:hover {
   color: var(--terciario);
-}
-
-/*------------------------------Body--------------------------*/
-
-html body {
-  background-image: url(../img/background_circuits.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
 }
 
 /*------------------------------Fonts--------------------------*/
@@ -126,6 +124,7 @@ html body {
   -moz-border-radius: 1rem;
   -ms-border-radius: 1rem;
   -o-border-radius: 1rem;
+  border: 1px solid var(--primario);
 }
 
 .button {
@@ -181,6 +180,7 @@ html body {
   justify-content: space-between;
   padding-left: 2rem;
   padding-right: 2rem;
+  padding-top: -4rem;
   color: var(--primario);
   text-decoration: none;
   font-family: var(--font-terciaria);
@@ -191,6 +191,7 @@ html body {
   display: flex;
   justify-content: space-between;
   background-color: white;
+  border: 1px solid var(--primario);
 }
 
 .card-1,
@@ -202,6 +203,7 @@ html body {
   border: 1px solid var(--primario);
   margin-right: 0.6rem;
   margin-left: 0.4rem;
+  margin-bottom: 5rem;
 }
 
 .innovation-cards,
@@ -232,14 +234,15 @@ p {
   background-color: var(--primario);
   color: var(--secundario);
   margin-top: 12rem;
+  position: absolute;
 }
 
 .logo-footer {
-  height: auto;
-  width: auto;
-  padding-top: 1rem;
-  padding-left: 1rem;
+  height: 20%;
+  width: 20%;
+  max-width: 10rem;
   justify-content: space-between;
+  margin-left: -1rem;
 }
 .nav-footer {
   display: flex;
@@ -258,13 +261,14 @@ p {
   color: var(--terciario);
 }
 
-.sitio {
+.ubication {
   text-align: center;
+  margin-top: 2rem;
 }
 .copyright {
   margin: 0;
   color: var(--secundario);
   text-align: center;
-  padding-top: 0rem;
+  padding-top: 2rem;
   font-size: 1rem;
 }
