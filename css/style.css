@@ -96,14 +96,6 @@ html body {
   margin: 1rem;
 }
 
-h2 {
-  font-size: 2.8rem;
-}
-
-h3 {
-  font-size: 1.8rem;
-}
-
 /*------------------------------Main--------------------------*/
 .contenedor-main {
   display: grid;
@@ -178,7 +170,7 @@ h3 {
   display: flex;
   background-color: white;
   justify-content: space-between;
-  margin-top: 2rem;
+  margin-top: 4rem;
   width: auto;
   height: 15rem;
   text-align: center;
@@ -186,10 +178,93 @@ h3 {
 }
 
 .contenedor-icons a h2 {
-  justify-content: space-evenly;
+  justify-content: space-between;
   padding-left: 2rem;
+  padding-right: 2rem;
   color: var(--primario);
   text-decoration: none;
   font-family: var(--font-terciaria);
   font-size: 1.5rem;
+}
+
+.innovation-cards {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.card-1,
+.card-2,
+.card-3,
+.card-4 {
+  background-color: var(--terciario);
+  align-items: center;
+  border: 1px solid var(--primario);
+  margin-right: 0.6rem;
+  margin-left: 0.4rem;
+}
+
+.innovation-cards,
+h2 {
+  font-family: var(--font-terciaria);
+  height: auto;
+  width: auto;
+  font-size: 2rem;
+}
+
+.innovation-cards,
+h3 {
+  font-size: 1.2rem;
+  font-family: var(--font-terciaria);
+}
+.innovation-cards,
+p {
+  font-size: 1.4rem;
+  font-family: var(--font-terciaria);
+}
+
+/*------------------------------Footer--------------------------*/
+
+.footer {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-template-rows: 50% 50%;
+  background-color: var(--primario);
+  color: var(--secundario);
+  margin-top: 12rem;
+}
+
+.logo-footer {
+  height: auto;
+  width: auto;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  justify-content: space-between;
+}
+.nav-footer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nav-footer a {
+  padding-right: 1rem;
+  padding-left: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+  border: 1px solid var(--secundario);
+}
+
+.nav-footer a:hover {
+  color: var(--terciario);
+}
+
+.sitio {
+  text-align: center;
+}
+.copyright {
+  margin: 0;
+  color: var(--secundario);
+  text-align: center;
+  padding-top: 0rem;
+  font-size: 1rem;
 }
