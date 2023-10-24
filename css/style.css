@@ -39,131 +39,127 @@ html body {
   background-size: cover;
   background-attachment: fixed;
 }
-/*------------------------------Logo--------------------------*/
+/*------------------------------Logo y Navegacion--------------------------*/
 
-a img {
-  max-width: 10rem; /* Establece el ancho máximo del logo */
+#contenedor-principal a img {
+  max-width: 10rem;
   height: auto;
   width: auto;
   padding-left: 1rem;
 }
 
-/*------------------------------Navegacion--------------------------*/
-
 .navegacion {
-  text-align: center;
-  background-color: var(--primario);
-  height: 6rem;
   display: flex;
+  background-color: var(--primario);
   justify-content: space-between;
+  text-align: center;
   align-items: center;
+  height: 6rem;
   margin: 0;
   padding: 0;
 }
 
-a {
+.navegacion a {
   color: var(--secundario);
   text-decoration: none;
   font-family: var(--font-primaria);
-  font-size: 1.3rem;
-}
-
-div img {
-  max-width: 5 rem;
-  height: auto;
-  width: auto;
-  align-items: center;
-}
-
-nav a:hover {
-  color: var(--terciario);
-  text-decoration: solid;
   font-size: 1.4rem;
 }
 
-/*------------------------------Fonts--------------------------*/
+.navegacion a:hover {
+  color: var(--terciario);
+  text-decoration: solid;
+  font-size: 1.5rem;
+}
 
-.noticias h1 {
+/* . .navegacion-user{ cambiar por imagenes de usuario 
+  max-width: 2 rem;
+  height: auto;
+  width: auto;
+  align-items: center;
+} */
+
+/*------------------------------Main--------------------------*/
+
+#contenedor-main {
+  display: grid;
+  grid-template-rows: 50% 50%;
+  grid-template-columns: 50% 50%;
+  margin-top: 5rem;
+  margin-left: -1.1rem;
+  width: 180vh; /*Corregir imagen*/
+}
+
+.news {
+  display: grid;
+  background-color: var(--secundario);
+  width: 80%;
+  height: 160%;
+  margin-top: 8rem;
+  margin-left: 6rem;
+  opacity: 0.8;
+  border-radius: 1rem;
+  border: 1px solid var(--primario);
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  z-index: 2;
+}
+
+.news h1 {
   font-size: 3rem;
   text-transform: uppercase;
   font-family: var(--font-secundaria);
   margin: 2rem;
 }
 
-.noticias p {
+.news p {
   font-size: 1.5rem;
   font-family: var(--font-terciaria);
   margin: 1rem;
 }
 
-/*------------------------------Main--------------------------*/
-.contenedor-main {
-  display: grid;
-  grid-template-rows: 50% 50%;
-  grid-template-columns: 50% 50%;
-  margin-top: 5rem;
-  margin-left: -1.1rem;
-}
-.img-background {
-  display: grid;
-  position: absolute;
-  width: 100%;
-  height: 80%;
-  z-index: 1;
-  padding-top: 18rem;
-}
-
-.noticias {
-  background-color: var(--secundario);
-  width: 80%;
-  height: 160%;
-  margin-top: 8rem;
-  margin-left: 6rem;
-  z-index: 2;
-  opacity: 0.8;
-  border-radius: 1rem;
-  -webkit-border-radius: 1rem;
-  -moz-border-radius: 1rem;
-  -ms-border-radius: 1rem;
-  -o-border-radius: 1rem;
-  border: 1px solid var(--primario);
-}
-
 .button {
   background-color: var(--secundario);
-  color: white;
-  padding: 1rem 1rem;
-  font-size: 1rem;
-  text-decoration: none;
-  text-transform: uppercase;
-
-  font-weight: bold;
+  color: var(--font-primaria);
   font-family: var(--font-terciaria);
-  width: 10rem;
-  height: 2rem;
-  text-align: start;
+  font-size: 1rem;
+  text-align: center;
+  padding: 0.8rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
   border-radius: 1rem;
   -webkit-border-radius: 1rem;
   -moz-border-radius: 1rem;
   -ms-border-radius: 1rem;
   -o-border-radius: 1rem;
-}
-.noticias button {
-  margin-left: 1rem;
 }
 
 .button:hover {
   background-color: var(--terciario);
   color: var(--primario);
-  font-size: 0.9rem;
 }
-.img-cpu {
-  z-index: 3;
+
+.img-news {
+  display: grid;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
   padding-bottom: 6rem;
   padding-left: 1.6rem;
+  margin-left: -7.4rem;
+  z-index: 2;
+}
+
+.background-news {
+  display: flex;
+  position: fixed;
+  width: 100%;
   height: 80%;
-  width: 80%;
-  margin-left: -7.6rem;
+  padding-top: 18rem;
+  z-index: -1;
 }
 
 /*------------------------------Iconos--------------------------*/
@@ -293,3 +289,5 @@ h3 {
   font-size: 1rem;
   margin-top: 2rem;
 }
+
+/*------------------------------Media Queries--------------------------*/
