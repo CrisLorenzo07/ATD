@@ -275,10 +275,14 @@ h3 {
   font-size: 1.4rem;
 }
 
+.social-media {
+  margin-bottom: 1rem;
+}
+
 .ubication {
   font-family: var(--font-terciaria);
   text-align: center;
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 .copyright {
   margin: 0;
@@ -287,4 +291,5 @@ h3 {
   font-family: var(--font-terciaria);
   padding-top: 3rem;
   font-size: 1rem;
+  margin-top: 2rem;
 }
