@@ -100,9 +100,10 @@ html body {
 .news {
   display: grid;
   background-color: var(--secundario);
-max-width: ;
+  width: 90%;
+  height: 150%;
   margin-top: 8rem;
-  margin-left: 10rem;
+  margin-left: 8rem;
   opacity: 0.8;
   border-radius: 1rem;
   border: 1px solid var(--primario);
@@ -132,10 +133,7 @@ max-width: ;
   font-family: var(--font-terciaria);
   font-size: 1rem;
   text-align: center;
-  padding: 0.8rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
-  margin-bottom: 1rem;
+  margin: 1rem 1rem;
   border-radius: 1rem;
   -webkit-border-radius: 1rem;
   -moz-border-radius: 1rem;
@@ -151,8 +149,8 @@ max-width: ;
 .img-news {
   display: grid;
   max-width: 100%;
-  padding-bottom: 5rem;
-  margin-left: 4rem;
+  padding-bottom: 10rem;
+  margin-left: 2.7rem;
   border-radius: 1rem;
   border: 1px solid var(--primario);
   -webkit-border-radius: 1rem;
@@ -167,7 +165,7 @@ max-width: ;
   position: absolute;
   max-width: 200px;
   height: 600px;
-  padding-top: 20rem;
+  padding-top: 30rem;
   z-index: -1;
 }
 
