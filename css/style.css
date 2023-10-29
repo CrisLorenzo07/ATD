@@ -39,6 +39,13 @@ html body {
   background-size: cover;
   background-attachment: fixed;
 }
+
+#contenedor-mayor {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
 /*------------------------------Logo y Navegacion--------------------------*/
 
 #contenedor-principal a img {
@@ -93,10 +100,9 @@ html body {
 .news {
   display: grid;
   background-color: var(--secundario);
-  width: 80%;
-  height: 160%;
+max-width: ;
   margin-top: 8rem;
-  margin-left: 6rem;
+  margin-left: 10rem;
   opacity: 0.8;
   border-radius: 1rem;
   border: 1px solid var(--primario);
@@ -144,20 +150,24 @@ html body {
 
 .img-news {
   display: grid;
-  width: 100%;
-  height: 200px;
-  padding-bottom: 6rem;
-  padding-left: 1.6rem;
-  margin-left: -7.4rem;
+  max-width: 100%;
+  padding-bottom: 5rem;
+  margin-left: 4rem;
+  border-radius: 1rem;
+  border: 1px solid var(--primario);
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
   z-index: 2;
 }
 
 .background-news {
-  display: flex;
-  position: fixed;
-  width: 80%;
-  height: 80%;
-  padding-top: 18rem;
+  display: grid;
+  position: absolute;
+  max-width: 200px;
+  height: 600px;
+  padding-top: 20rem;
   z-index: -1;
 }
 
