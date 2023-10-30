@@ -13,16 +13,6 @@
   --font-terciaria: "Montserrat", sans-serif;
 }
 
-/*------------------------------Google Icons--------------------------*/
-
-.material-symbols-outlined {
-  font-size: 6rem;
-  margin-top: 2rem;
-  color: var(--terciario);
-  align-items: center;
-  font-variation-settings: "FILL" 0, "wght" 200, "GRAD" 0, "opsz" 48;
-}
-
 /*------------------------Selector universal------------------------*/
 
 *,
@@ -104,7 +94,7 @@ html body {
   height: 150%;
   margin-top: 8rem;
   margin-left: 8rem;
-  opacity: 0.8;
+  opacity: 0.9;
   border-radius: 1rem;
   border: 1px solid var(--primario);
   -webkit-border-radius: 1rem;
@@ -130,8 +120,8 @@ html body {
 .button {
   background-color: var(--secundario);
   color: var(--font-primaria);
-  font-family: var(--font-terciaria);
-  font-size: 1rem;
+  font-family: var(--font-primaria);
+  font-size: 1.5rem;
   text-align: center;
   margin: 1rem 1rem;
   border-radius: 1rem;
@@ -143,7 +133,7 @@ html body {
 
 .button:hover {
   background-color: var(--terciario);
-  color: var(--primario);
+  color: var(--secundario);
 }
 
 .img-news {
@@ -171,7 +161,7 @@ html body {
 
 /*------------------------------Iconos--------------------------*/
 
-.contenedor-icons {
+#contenedor-icons {
   display: flex;
   background-color: white;
   justify-content: space-between;
@@ -182,20 +172,23 @@ html body {
   align-items: center;
 }
 
-.contenedor-icons a h2 {
+#contenedor-icons a h2 {
   justify-content: space-between;
   padding-left: 2rem;
   padding-right: 2rem;
   padding-top: -4rem;
   color: var(--primario);
-  text-decoration: none;
-  font-family: var(--font-terciaria);
-  font-size: 1.5rem;
+  font-family: var(--font-primaria);
+  font-size: 1.4rem;
 }
 
-.contenedor-icons a:hover {
+#contenedor-icons a:hover {
   color: var(--terciario);
   font-size: 1.6rem;
+}
+
+.icons {
+  color: var(--primario);
 }
 
 .innovation-cards {
