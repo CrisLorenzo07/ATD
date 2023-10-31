@@ -172,7 +172,7 @@ html body {
   align-items: center;
 }
 
-#contenedor-icons a h2 {
+#contenedor-icons a {
   justify-content: space-between;
   padding-left: 2rem;
   padding-right: 2rem;
@@ -182,55 +182,71 @@ html body {
   font-size: 1.4rem;
 }
 
-#contenedor-icons a:hover {
-  color: var(--terciario);
-  font-size: 1.6rem;
+#contenedor-icons :hover {
+  text-decoration: none;
 }
 
 .icons {
-  color: var(--primario);
-}
-
-.innovation-cards {
   display: flex;
-  justify-content: space-between;
-  background-color: white;
-  border: 1px solid var(--primario);
-  position: relative;
+
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  width: auto;
+  height: 10rem;
+  text-align: center;
+  align-items: center;
 }
 
-.card-1,
-.card-2,
-.card-3,
-.card-4 {
+/*------------------------------Innovation-Cards--------------------------*/
+
+#innovation-cards {
+  display: flex;
+  background-color: white;
+  padding: 2rem;
+}
+
+.card {
+  max-width: 28rem;
   background-color: var(--terciario);
   align-items: center;
-  border: 1px solid var(--primario);
-  margin-right: 0.6rem;
-  margin-left: 0.4rem;
-  margin-bottom: 5rem;
+  margin-right: 2rem;
+  margin-left: -0.6rem;
+  border: 2px solid var(--primario);
+  border-radius: 0.4rem;
+  -webkit-border-radius: 0.4rem;
+  -moz-border-radius: 0.4rem;
+  -ms-border-radius: 0.4rem;
+  -o-border-radius: 0.4rem;
+}
+
+.card-img {
+  max-width: 28rem;
+  height: 50%;
 }
 
 .innovation-cards,
 h2 {
-  font-family: var(--font-terciaria);
-  height: auto;
-  width: auto;
-  font-size: 1.4rem;
+  font-family: var(--font-secundaria);
+  padding: 1rem;
+  margin-bottom: -2rem;
+  font-size: 1.8rem;
   text-transform: uppercase;
 }
 
 .innovation-cards,
 h3 {
-  font-size: 1rem;
+  font-size: 0.8rem;
+  padding: 1rem;
+  margin-bottom: -2rem;
   text-transform: uppercase;
   font-family: var(--font-terciaria);
 }
 .innovation-cards,
-.p {
-  font-size: 1.4rem;
+p {
+  font-size: 1.2rem;
+  padding: 1rem;
   font-family: var(--font-terciaria);
-  text-transform: lowercase;
 }
 
 /*------------------------------Footer--------------------------*/
@@ -291,3 +307,6 @@ h3 {
 }
 
 /*------------------------------Media Queries--------------------------*/
+
+
+/*Cambiar display grid y flex pora el mq*/
