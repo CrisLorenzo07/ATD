@@ -265,19 +265,21 @@ p {
 }
 
 #social-media {
-  margin: 1rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem;
 }
 
 #nav-footer {
-  display: grid;
-  grid-template-columns: 25% 25% 25% 25%; 
-  padding-left: 2rem;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: stretch;
+  margin-top: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
-#nav-footer a {
+#nav-footer a{
   color: var(--secundario);
   text-decoration: none;
   font-size: 1.2rem;
@@ -292,12 +294,20 @@ p {
   font-size: 1.2rem;
 }
 
+#nav-footer p{
+  color: var(--secundario);
+  font-size: 1.2rem;
+  font-family: var(--font-terciaria);
+  text-align: start;
+  margin-left: 2rem;
+}
+
 .ubication {
   font-family: var(--font-terciaria);
   color: var(--secundario);
   text-align: center;
 }
-#footer-legal p{
+#footer-legal p {
   margin: 0;
   color: var(--secundario);
   text-align: center;
