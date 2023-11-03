@@ -38,7 +38,7 @@ html body {
 }
 /*------------------------------Logo y Navegacion--------------------------*/
 
-#contenedor-principal a img {
+#contenedor-principal img {
   max-width: 10rem;
   height: auto;
   width: auto;
@@ -48,7 +48,7 @@ html body {
 .navegacion {
   display: flex;
   background-color: var(--primario);
-  justify-content: space-between;
+  justify-content:space-between;
   text-align: center;
   align-items: center;
   height: 6rem;
@@ -61,6 +61,7 @@ html body {
   text-decoration: none;
   font-family: var(--font-primaria);
   font-size: 1.4rem;
+  padding-left: 2rem;
 }
 
 .navegacion a:hover {
@@ -69,12 +70,29 @@ html body {
   font-size: 1.5rem;
 }
 
-/* . .navegacion-user{ cambiar por imagenes de usuario 
-  max-width: 2 rem;
-  height: auto;
-  width: auto;
-  align-items: center;
-} */
+.user {
+  font-family: var(--font-primaria);
+  font-size: 1.4rem;
+  padding-left: 10rem;
+}
+
+ol {
+  color: #c9daf1;
+  font-size: 0.8rem;
+  padding-left: 5.5rem;
+  margin-top: 0;
+  margin-bottom: 0;
+
+}
+
+input {
+  background-color: var(--secundario);
+  color: var(--secundario);
+  font-family: var(--font-primaria);
+  font-size: 1rem;
+  margin: 1rem;
+  margin-bottom: 1rem;
+}
 
 /*------------------------------Main--------------------------*/
 
@@ -279,7 +297,7 @@ p {
   margin-right: 2rem;
 }
 
-#nav-footer a{
+#nav-footer a {
   color: var(--secundario);
   text-decoration: none;
   font-size: 1.2rem;
@@ -294,7 +312,7 @@ p {
   font-size: 1.2rem;
 }
 
-#nav-footer p{
+#nav-footer p {
   color: var(--secundario);
   font-size: 1.2rem;
   font-family: var(--font-terciaria);
