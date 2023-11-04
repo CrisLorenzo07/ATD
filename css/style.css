@@ -48,7 +48,7 @@ html body {
 .navegacion {
   display: flex;
   background-color: var(--primario);
-  justify-content:space-between;
+  justify-content: space-between;
   text-align: center;
   align-items: center;
   height: 6rem;
@@ -82,7 +82,6 @@ ol {
   padding-left: 5.5rem;
   margin-top: 0;
   margin-bottom: 0;
-
 }
 
 input {
@@ -334,62 +333,3 @@ p {
   font-size: 1rem;
   background-color: var(--primario);
 }
-
-/* .footer {
-  display: grid;
-  grid-template-columns: 20% 80%;
-  grid-template-rows: 50% 50%;
-  background-color: var(--primario);
-  color: var(--secundario);
-  margin-top: 12rem;
-  position: absolute;
-}
-
-.logo-footer {
-  height: 20%;
-  width: 20%;
-  max-width: 10rem;
-  justify-content: space-between;
-  margin-left: -1rem;
-}
-.nav-footer {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.nav-footer a {
-  padding-right: 1rem;
-  padding-left: 1rem;
-  margin-top: 1rem;
-  margin-bottom: 4rem;
-  border: 1px solid var(--secundario);
-  font-size: 1.3rem;
-}
-
-.nav-footer a:hover {
-  color: var(--terciario);
-  font-size: 1.4rem;
-}
-
-.social-media {
-  margin-bottom: 1rem;
-}
-
-.ubication {
-  font-family: var(--font-terciaria);
-  text-align: center;
-  margin-top: 2rem;
-}
-.copyright {
-  margin: 0;
-  color: var(--secundario);
-  text-align: center;
-  font-family: var(--font-terciaria);
-  padding-top: 3rem;
-  font-size: 1rem;
-  margin-top: 2rem;
-} */
-
-/*------------------------------Media Queries--------------------------*/
-
-/*Cambiar display grid y flex pora el mq*/
