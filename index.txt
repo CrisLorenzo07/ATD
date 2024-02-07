@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATD Advanced Technology Devices</title>
+
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&family=Tektur&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <header class="contenedor-principal">
+
+        <a class="logo" href="index.html">
+            <img src="img/logo_ATD.svg" alt="Logo ATD">
+        </a>
+        <nav class="navegacion">
+            <a href="#">Inicio</a>
+            <a href="#">Producto</a>
+            <a href="#">Soluciones</a>
+            <a href="#">Desarrolladores</a>
+            <a href="#">Socios</a>
+            <a href="#">Sobre Nosotros</a>
+            <div class="user">
+                <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/c9daf1/user.png" alt="user" />
+                <img width="50" height="50" src="https://img.icons8.com/ios/50/c9daf1/globe--v1.png" alt="globe--v1" />
+                <ol>Español</ol>
+            </div>
+            <input type="text" id="s" value="" placeholder="Buscar" />
+        </nav>
+    </header> <!-- contenedor-principal -->
+
+    <main>
+        <section id="contenedor-main">
+
+            <div class="background-news">
+                <img src="img/background_color_blue.png" alt="">
+            </div>
+
+            <div class="news">
+                <h1>
+                    Presentamos los nuevos procesadores ATD 2000 Nexus de 6ta Generación
+                </h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, impedit? Reiciendis, a
+                    sunt.
+                    Eaque
+                    consequatur similique debitis veniam laudantium quisquam tempore repudiandae, accusantium culpa,
+                    fugiat
+                    velit possimus incidunt earum quia
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam cum ut nostrum nemo qui
+                    officia
+                    odit
+                    consectetur, quas eius molestias laborum distinctio consequatur perferendis quia culpa pariatur
+                    reprehenderit. Ullam, blanditiis!
+                </p>
+                <button class="button" href="#">Mas Información</button>
+            </div> <!--news -->
+
+            <div>
+                <img class="img-news" src="img/img_cpu.jpeg" alt="">
+            </div>
+        </section> <!-- contenedor-main-->
+
+        <section id="contenedor-icons">
+            <div class="icons">
+                <a href="#">
+                    <img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAABCklEQVR4nO3YTU4CQRAF4HcSqsZDUGVc4xEVriN4D5UT6ErdDGkIbGSgA4y80fclnUlm91I/nRlA/gMLh+UMlktYfm+eMV2/Hwwf38PiA57tj1PeNzEBvdG46QyxC5Pv8FsDNcvZwRC7E4+gZrmsCmLxCmqWX5VBPkHN8q0yyAuoWUzrZiQfwH9/xPGtdXM3Ar0mJpsV2xFiEPfIVrknyoot26ksgPIs7TSISohciMdz5ardN/Rz0PATQ2wPDVeQVhXphVor2VorFn9ja3VREDau1iKjirBxzQgZVYSNa0bIqCJsXDNyJef816L63+UXDnG1L0dXkFYV6YVaK9laKxY9rN+n3w8i6MUKHlHvgROY/O8AAAAASUVORK5CYII=">
+                    <h2>Obtener Asistencia</h2>
+                </a>
+            </div>
+            <div class="icons">
+                <a href="#">
+                    <img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAABSklEQVR4nO2YsUrEQBRF77IWoiJ2ywrZO0GrCNuo+2ZtUgj+QaxFLPwDsfQD7MXCbxD8AmtLG7G109JCCyGSKLIx69oo+ya8A1OEZIZcJhMOFzAM469pIUkXEDz0x6C/Ryx9BEtvuA0nb3A+h5MXcLiP4HBDgv7pI8TnoDyC6RKCgeks6G8qIcqdGexANZ3+PFYHi1/Xzl9UQ5RBjmrzas/84/idrA36S1BusbIRgf6wtkhxv/h7qQ5Cfz7ywg+gvH47F3eV3VIZJPYHEydTnhFtrv04X02Q7vocKFcTFthFOGRtUM7GhDhFkFBORj6payCdQbBQ9soDH20tI3iSJgjieMx+9dAz+1UCzX7z6UkjzH6hRxpjs1+NZGa/eqHZbxC0mqH2tO5XCc663ynSse431yGNBdb9QpHGd637VQyt+1VK0gRBNAzjHQvGwKGDGzwUAAAAAElFTkSuQmCC">
+                    <h2>Especificaciones del Producto</h2>
+                </a>
+            </div>
+
+            <div class="icons">
+                <a href="#">
+                    <img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADP0lEQVR4nO1Zz2sTQRT+qig9CNqiF03zJlGLxFOJyXtbIhHxJj320IM9iuDBv0Cxeump94LtoehFjz30oKUK1YOIiELxotdqUcGCtqhtZWaT7W6ySTbpbpLCfjCw2cnMe2/ez50HxIixz5DmsyC5ByWfoeSTedbv9gXS2aNQMg7ip1CyDSU7PuMNFN/CYPY4ugrZ7CGkZAQkT0C86TBMvA4lsyC+ZIb9vO6a3zRr9Fq9R8cwkDsPkkmQfHGd9hYUL0PxdWSKR6rWULEXKWsUxPMg/ru7jn+AZBppLrSJ+eGTxiwUv60wlxUQ3wWx6shegdCOU2xFu4GR5KxhlOSn16553ggWiV2PHkRKroBkDkp+uQ7tN4gfmzmgJ9hemcxhEL/2qptfgeQGkoU+tAvJQp+hqWm7edG8aR4bQsmdmiHzTOEE2gUqHqsdyvl2/cU6YSneMAuT+Zt2yKw0rQhDZrZWKDc8zJZ42jY81k2utvRa4pmudXbFM6VDfe7vL1qN9gbfappQN4TfhPSD+Kv93/y1OpMy3vUJUbkO3VPqlNWlZDF4eOtoidIDxc+8bpDKXzQOZDa2ziGySBNyBEx7AtNl7eAfSgSWjImFhVRu0Gh4V4BF8y4sJKTf8Gxr9702q2VPBtWqImsolJKeeM1lSmvm3V5B1hAUP7B5dfhe1lMHkMxfheIF21mdyZcgayxYFvUjKJNOmNTDzgeTLe2V0dWGNWZ48gaWBcO7lsHH7qYqbHrVfN0l5FRgwsqikv3uIJ27YIZ9OBtmrpkQTeYrc7Uis08F+9r0dVL+ZxeMAQo3xY+cdVV78sOABescSP748hIY/tHGXbh9NJHHN1doG3aZaPWe20hZuep1xV474sm7hvRDE8RdA+lElsxnXGvdkcpPEH0QL5z3A8OnbX/i74Hphi5IpeMRT9QkWq3VieoAIx0XpDHRKPZsiFgQiTWC2LTqIfYRiX0EsY/UQ+wjEvsIYh+ph/KnaXcWjUvYc1uhY4Jwua0wYloPLaHm7WDkgmyF0+hp7r42TEFWomm9NXf326Ig7W6GNtUuayCIu43X6t1ZZPC7+y2jk92vPUHf85Lcd37r5zDvfmPEQFvwH/wQdm93/vt6AAAAAElFTkSuQmCC">
+                    <h2>Ver los productos</h2>
+                </a>
+            </div>
+
+            <div class="icons">
+                <a href="#">
+                    <img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAABDklEQVR4nO2ZXw7CIAyH++Q16PMuQG+oXgsS40H8c4wZFmMmLiawjgLrl/RBsmE/fsMsArBbDF0B7aX4ODtI41Slx9lRkdoSaY5hOICxZ0B6fFZJrOwdDJ2mnpIJN4oL0HeFnpKpIgmK65kjMlZZyUg3jLsWMeR/Lq5ZBGefQ++diLgOH60lpBtGFYloMhGzYrNzkfJ9uMWvlryI45u4tEgSKpKJJjKn7c3uexFxfBOXFklCRTLRROa0vdl9LyKOZ+LSlYx0w6giEU0mYpr+O8j3IuL+p9Tko7WEdMOoIhHhuEt69TEue4Mujt6QjpmHoUGmhmTsisPQ7sH3KpUeZ0dFakvEkF98Ldh6HHbCC+lzAfL+P6c0AAAAAElFTkSuQmCC">
+                    <h2>Comparar los productos</h2>
+                </a>
+            </div>
+
+            <div class="icons">
+                <a href="#">
+                    <img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAABYUlEQVR4nO2ZS07DMBBAZ4XEHZA9ZIUqkJCadCYp3IFT8bkAF6o4A1sW/QhOwC7IFo3cOoi2pIlt5kmjVHVk9WVmnKQGEARhN0ajE9D0BMhLQK5/DU1voMs7CA7NjzsJbMp8gq6uISiQFnuL2KBXOONTCAY8RKKJZ0hEpO43aGFbwfR13CK8jodURJapiNQJiwihgfQyeJngnqF51iKSSo9gAD8KRcThWFdMlRUonsafkTUiwpKRWkoLpUdqWbU8ZPnlBO8jiqeQFTloev9RxIwpGkNGNwGL0NjOlZWXjYw7v/nOjNlzijxcEU0fkPGVnU+XFxt/Dvhjq3BFcPuqfx/dz262ghbBrcy4dJkJ7EOkTeYYEtjXY7wtsyL3VrLoRLCH8Pi3IqqsoGvUAa/EfxYxd+auOZ/cSmk1DF3r0uydbYYOGTT3POw2Vnwi976I2Vi0MjFkhuZWonUzVBAEaOELdztwVQZXww8AAAAASUVORK5CYII=">
+                    <h2>Centro de Descargas</h2>
+                </a>
+            </div>
+        </section> <!-- contenedor-icons -->
+
+        <section id="innovation-cards">
+            <div class="card">
+                <img class="card-img" src="img/gamer.png" alt="">
+                <h3>Innovación</h3>
+                <h2>Juegos de ATD: Desempeño Superior</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis optio doloremque asperiores
+                    saepe
+                    nostrum alias vel error. Aliquam officiis voluptate dolores, libero ipsum nesciunt sit, velit, a
+                    vitae
+                    eos voluptatum.</p>
+            </div>
+            <div class="card">
+                <img class="card-img" src="img/ram.png" alt="">
+                <h3>Innovación</h3>
+                <h2>Memorias RAM de gran capacidad ATD Superior</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore magni earum quidem deserunt
+                    odio
+                    exercitationem laudantium similique, officiis velit deleniti eius, iure soluta impedit eveniet
+                    in
+                    iste
+                    culpa itaque repellendus?</p>
+            </div>
+            <div class="card">
+                <img class="card-img" src="img/work.png" alt="">
+                <h3>Innovación</h3>
+                <h2>ATD V-PRO desarrollada para computadoras portatiles</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique animi laborum ducimus a optio
+                    eveniet
+                    dolore pariatur reiciendis in laudantium beatae, soluta eaque nobis quidem, odio quisquam
+                    ratione,
+                    amet
+                    eligendi!</p>
+            </div>
+            <div class="card">
+                <img class="card-img" src="img/secure.png" alt="">
+                <h3>Innovación</h3>
+                <h2>Lo ultimo en seguridad: Secure Boot</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius magni dolore a omnis non facere
+                    adipisci
+                    fugit ab, atque ipsam, assumenda quasi, quaerat corporis quam eum voluptates saepe laborum
+                    dolorem.
+                </p>
+            </div>
+        </section> <!-- innovation-cards -->
+
+    </main>
+</body>
+
+<footer id="footer">
+    <div class="logo-footer">
+        <img src="img/logo_ATD.svg" alt="">
+
+        <div id="social-media">
+            <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50"
+                    style="fill:#c9daf1;">
+                    <path
+                        d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M37,19h-2c-2.14,0-3,0.5-3,2 v3h5l-1,5h-4v15h-5V29h-4v-5h4v-3c0-4,2-7,6-7c2.9,0,4,1,4,1V19z">
+                    </path>
+                </svg>
+            </a>
+            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50"
+                    viewBox="0 0 50 50" style="fill:#c9daf1;">
+                    <path
+                        d="M 16 3 C 8.83 3 3 8.83 3 16 L 3 34 C 3 41.17 8.83 47 16 47 L 34 47 C 41.17 47 47 41.17 47 34 L 47 16 C 47 8.83 41.17 3 34 3 L 16 3 z M 37 11 C 38.1 11 39 11.9 39 13 C 39 14.1 38.1 15 37 15 C 35.9 15 35 14.1 35 13 C 35 11.9 35.9 11 37 11 z M 25 14 C 31.07 14 36 18.93 36 25 C 36 31.07 31.07 36 25 36 C 18.93 36 14 31.07 14 25 C 14 18.93 18.93 14 25 14 z M 25 16 C 20.04 16 16 20.04 16 25 C 16 29.96 20.04 34 25 34 C 29.96 34 34 29.96 34 25 C 34 20.04 29.96 16 25 16 z">
+                    </path>
+                </svg></a>
+            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50"
+                    viewBox="0 0 50 50" style="fill:#c9daf1;">
+                    <path
+                        d="M 11 4 C 7.134 4 4 7.134 4 11 L 4 39 C 4 42.866 7.134 46 11 46 L 39 46 C 42.866 46 46 42.866 46 39 L 46 11 C 46 7.134 42.866 4 39 4 L 11 4 z M 13.085938 13 L 21.023438 13 L 26.660156 21.009766 L 33.5 13 L 36 13 L 27.789062 22.613281 L 37.914062 37 L 29.978516 37 L 23.4375 27.707031 L 15.5 37 L 13 37 L 22.308594 26.103516 L 13.085938 13 z M 16.914062 15 L 31.021484 35 L 34.085938 35 L 19.978516 15 L 16.914062 15 z">
+                    </path>
+                </svg></a>
+            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50"
+                    viewBox="0 0 50 50" style="fill:#c9daf1;">
+                    <path
+                        d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z">
+                    </path>
+                </svg></a>
+            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50"
+                    viewBox="0 0 50 50" style="fill:#c9daf1;">
+                    <path
+                        d="M 44.898438 14.5 C 44.5 12.300781 42.601563 10.699219 40.398438 10.199219 C 37.101563 9.5 31 9 24.398438 9 C 17.800781 9 11.601563 9.5 8.300781 10.199219 C 6.101563 10.699219 4.199219 12.199219 3.800781 14.5 C 3.398438 17 3 20.5 3 25 C 3 29.5 3.398438 33 3.898438 35.5 C 4.300781 37.699219 6.199219 39.300781 8.398438 39.800781 C 11.898438 40.5 17.898438 41 24.5 41 C 31.101563 41 37.101563 40.5 40.601563 39.800781 C 42.800781 39.300781 44.699219 37.800781 45.101563 35.5 C 45.5 33 46 29.398438 46.101563 25 C 45.898438 20.5 45.398438 17 44.898438 14.5 Z M 19 32 L 19 18 L 31.199219 25 Z">
+                    </path>
+                </svg></a>
+        </div> <!-- social-media -->
+        <div class="ubication">
+            <p>ATD Corporation</p>
+            <p>Montevideo, Uruguay</p>
+        </div> <!-- ubication -->
+    </div>
+
+    <div id="nav-footer">
+        <a href="#">Informacion de la empresa</a>
+        <a href="#">Nuestro compromiso</a>
+        <a href="#">Innovación</a>
+        <a href="#">Inversores</a>
+        <a href="#">Diversión e inlcusión</a>
+        <a href="#">Oportunidades de empleo</a>
+        <a href="#">Marcas comerciales</a>
+        <a href="#">Cookies</a>
+        <a href="#">Privacidad</a>
+        <a href="#">Accesibilidad</a>
+        <a href="#">Nuestros Socios</a>
+        <a href="#">Desarrolladores</a>
+        <a href="#">Centro de Descargas</a>
+        <a href="#">Contáctenos</a>
+        <a href="#">Mapa del sitio</a>
+        <a href="#">Soporte</a>
+        <a href="#">Garantia</a>
+        <a href="#">Foros</a>
+        <a href="#">Tienda</a>
+        <a href="#">Terminos de uso</a>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper aliquam metus. Sed dapibus
+            sit amet
+            arcu vel congue. Vivamus nisi augue, cursus vitae suscipit ut, scelerisque consectetur nulla. Donec accumsan
+            lacinia
+            fringilla. Nullam tincidunt enim vel dui ullamcorper, eu finibus dui tempor. Ut felis orci, mattis nec enim
+            sit amet,
+            vehicula ornare sem. Nullam placerat dapibus tortor, vestibulum viverra quam tristique eget. Maecenas
+            vehicula, nulla
+            quis rutrum ultrices, eros magna sollicitudin tortor, sit amet sodales massa quam non purus.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper aliquam metus. Sed dapibus
+            sit amet
+            arcu vel congue. Vivamus nisi augue, cursus vitae suscipit ut, scelerisque consectetur nulla. Donec accumsan
+            lacinia
+            fringilla. Nullam tincidunt enim vel dui ullamcorper, eu finibus dui tempor. Ut felis orci, mattis nec enim
+            sit amet,
+            vehicula ornare sem. Nullam placerat dapibus tortor, vestibulum viverra quam tristique eget. Maecenas
+            vehicula, nulla
+            quis rutrum ultrices, eros magna sollicitudin tortor, sit amet sodales massa quam non purus.</p>
+    </div><!-- nav-footer -->
+</footer> <!-- footer -->
+
+<div id="footer-legal">
+    <p class="copyright">Todos los Derechos Reservados 2023&copy;</p>
+    <p>ATD, el logotipo de ATD, y otras marcas de ATD son marcas comerciales de ATD Corporation o sus filiales.</p>
+</div> <!-- footer-legal -->
+
+</html>
