@@ -1,8 +1,8 @@
-/*------------------------------Colors--------------------------*/
+/* /*------------------------------Colors--------------------------*/
 :root {
-  --primario: #002038;
-  --secundario: #c9daf1;
-  --terciario: #92ace8;
+  --colorPrimario: #002038;
+  --colorSecundario: #c9daf1;
+  --colorTerciario: #92ace8;
 }
 
 /*------------------------------Google Fonts--------------------------*/
@@ -14,13 +14,48 @@
 }
 
 /*------------------------Selector universal------------------------*/
-
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /*1rem = 10px*/
+}
 *,
 *:before,
 *:after {
   box-sizing: inherit;
 }
 
+/* Globales*/
+
+a {
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: var(--font-terciaria);
+}
+
+p {
+  font-family: var(--font-terciaria);
+  font-size: 1.6rem;
+}
+
+h1 {
+  font-family: var(--font-primaria);
+  font-size: 4rem;
+}
+
+h2 {
+  font-family: var(--font-secundaria);
+  font-size: 3.5rem;
+}
+
+h3 {
+  font-family: var(--font-terciaria);
+  font-size: 2.2rem;
+}
+
+h4 {
+  font-family: var(--font-terciaria);
+  font-size: 2rem;
+}
 /*------------------------------Body--------------------------*/
 
 html body {
@@ -30,306 +65,45 @@ html body {
   background-attachment: fixed;
 }
 
-#contenedor-mayor {
-  width: 100%;
-  height: 100%;
+/*------------------------------Globales--------------------------*/
+
+.contenedor {
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  background-color: var(--colorPrimario);
+}
+
+.logo {
+  display: flex;
+  height: 12rem;
   margin: 0;
   padding: 0;
-}
-/*------------------------------Logo y Navegacion--------------------------*/
-
-#contenedor-principal img {
-  max-width: 10rem;
-  height: auto;
-  width: auto;
-  padding-left: 1rem;
 }
 
 .navegacion {
   display: flex;
-  background-color: var(--primario);
+  background-color: var(--colorPrimario);
   justify-content: space-between;
   text-align: center;
   align-items: center;
-  height: 6rem;
-  margin: 0;
-  padding: 0;
+  padding: auto auto;   
 }
 
 .navegacion a {
-  color: var(--secundario);
+  color: var(--colorSecundario);
   text-decoration: none;
   font-family: var(--font-primaria);
-  font-size: 1.4rem;
-  padding-left: 2rem;
+  font-size: 2rem;
 }
 
 .navegacion a:hover {
-  color: var(--terciario);
+  color: var(--colorTerciario);
   text-decoration: solid;
-  font-size: 1.5rem;
+  font-size: 2.1rem;
 }
 
 .user {
   font-family: var(--font-primaria);
   font-size: 1.4rem;
   padding-left: 10rem;
-}
-
-ol {
-  color: #c9daf1;
-  font-size: 0.8rem;
-  padding-left: 5.5rem;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-input {
-  background-color: var(--secundario);
-  color: var(--secundario);
-  font-family: var(--font-primaria);
-  font-size: 1rem;
-  margin: 1rem;
-  margin-bottom: 1rem;
-}
-
-/*------------------------------Main--------------------------*/
-
-#contenedor-main {
-  display: grid;
-  grid-template-rows: 50% 50%;
-  grid-template-columns: 50% 50%;
-  margin-top: 5rem;
-  margin-left: -1.1rem;
-  width: 180vh; /*Corregir imagen*/
-}
-
-.news {
-  display: grid;
-  background-color: var(--secundario);
-  width: 90%;
-  height: 150%;
-  margin-top: 8rem;
-  margin-left: 8rem;
-  opacity: 0.9;
-  border-radius: 1rem;
-  border: 1px solid var(--primario);
-  -webkit-border-radius: 1rem;
-  -moz-border-radius: 1rem;
-  -ms-border-radius: 1rem;
-  -o-border-radius: 1rem;
-  z-index: 2;
-}
-
-.news h1 {
-  font-size: 3rem;
-  text-transform: uppercase;
-  font-family: var(--font-secundaria);
-  margin: 2rem;
-}
-
-.news p {
-  font-size: 1.5rem;
-  font-family: var(--font-terciaria);
-  margin: 1rem;
-}
-
-.button {
-  background-color: var(--secundario);
-  color: var(--font-primaria);
-  font-family: var(--font-primaria);
-  font-size: 1.5rem;
-  text-align: center;
-  margin: 1rem 1rem;
-  border-radius: 1rem;
-  -webkit-border-radius: 1rem;
-  -moz-border-radius: 1rem;
-  -ms-border-radius: 1rem;
-  -o-border-radius: 1rem;
-}
-
-.button:hover {
-  background-color: var(--terciario);
-  color: var(--secundario);
-}
-
-.img-news {
-  display: grid;
-  max-width: 100%;
-  padding-bottom: 10rem;
-  margin-left: 2.7rem;
-  border-radius: 1rem;
-  border: 1px solid var(--primario);
-  -webkit-border-radius: 1rem;
-  -moz-border-radius: 1rem;
-  -ms-border-radius: 1rem;
-  -o-border-radius: 1rem;
-  z-index: 2;
-}
-
-.background-news {
-  display: grid;
-  position: absolute;
-  max-width: 200px;
-  height: 600px;
-  padding-top: 30rem;
-  z-index: -1;
-}
-
-/*------------------------------Iconos--------------------------*/
-
-#contenedor-icons {
-  display: flex;
-  background-color: white;
-  justify-content: space-between;
-  margin-top: 4rem;
-  width: auto;
-  height: 15rem;
-  text-align: center;
-  align-items: center;
-}
-
-#contenedor-icons a {
-  justify-content: space-between;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  padding-top: -4rem;
-  color: var(--primario);
-  font-family: var(--font-primaria);
-  font-size: 1.4rem;
-}
-
-#contenedor-icons :hover {
-  text-decoration: none;
-}
-
-.icons {
-  display: flex;
-
-  margin-top: 2rem;
-  margin-left: 2rem;
-  margin-right: 2rem;
-  width: auto;
-  height: 10rem;
-  text-align: center;
-  align-items: center;
-}
-
-/*------------------------------Innovation-Cards--------------------------*/
-
-#innovation-cards {
-  display: flex;
-  background-color: white;
-  padding: 2rem;
-}
-
-.card {
-  max-width: 28rem;
-  background-color: var(--terciario);
-  align-items: center;
-  margin-right: 2rem;
-  margin-left: -0.6rem;
-  border: 2px solid var(--primario);
-  border-radius: 0.4rem;
-  -webkit-border-radius: 0.4rem;
-  -moz-border-radius: 0.4rem;
-  -ms-border-radius: 0.4rem;
-  -o-border-radius: 0.4rem;
-}
-
-.card-img {
-  max-width: 28rem;
-  height: 50%;
-}
-
-.innovation-cards,
-h2 {
-  font-family: var(--font-secundaria);
-  padding: 1rem;
-  margin-bottom: -2rem;
-  font-size: 1.8rem;
-  text-transform: uppercase;
-}
-
-.innovation-cards,
-h3 {
-  font-size: 0.8rem;
-  padding: 1rem;
-  margin-bottom: -2rem;
-  text-transform: uppercase;
-  font-family: var(--font-terciaria);
-}
-.innovation-cards,
-p {
-  font-size: 1.2rem;
-  padding: 1rem;
-  font-family: var(--font-terciaria);
-}
-
-/*------------------------------Footer--------------------------*/
-
-#footer {
-  display: flex;
-  width: 100%;
-  height: auto;
-  background-color: var(--primario);
-  margin-top: 12rem;
-  text-align: center;
-}
-
-.logo-footer img {
-  max-width: 15rem;
-}
-
-#social-media {
-  display: flex;
-  justify-content: space-between;
-  margin: 2rem;
-}
-
-#nav-footer {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: stretch;
-  margin-top: 1rem;
-  margin-left: 2rem;
-  margin-right: 2rem;
-}
-
-#nav-footer a {
-  color: var(--secundario);
-  text-decoration: none;
-  font-size: 1.2rem;
-  font-family: var(--font-primaria);
-  text-align: start;
-  margin-left: 2rem;
-  margin-top: 2rem;
-}
-
-#nav-footer a:hover {
-  color: var(--terciario);
-  font-size: 1.2rem;
-}
-
-#nav-footer p {
-  color: var(--secundario);
-  font-size: 1.2rem;
-  font-family: var(--font-terciaria);
-  text-align: start;
-  margin-left: 2rem;
-}
-
-.ubication {
-  font-family: var(--font-terciaria);
-  color: var(--secundario);
-  text-align: center;
-}
-#footer-legal p {
-  margin: 0;
-  color: var(--secundario);
-  text-align: center;
-  font-family: var(--font-terciaria);
-  padding-top: 1rem;
-  font-size: 1rem;
-  background-color: var(--primario);
 }
